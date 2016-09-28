@@ -5,13 +5,20 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
+  <header>
+
+  </header>
   <body ng-controller="mainCtrl">
     <div class="main-container">
-      <h1> DevMountain Chat Room </h1>
+      <h1 > DevMountain Chat Room </h1>
+      <h2>A simple parse powered NOT so PRIVATE chat</h2>
       <form ng-submit="postMessage(message)">
-        <input class="form-control text-box" type="text" ng-model="message" placeholder="Message">
+        <input class="form-control text-box" type="text" ng-model="message" placeholder="Compose Message">
       </form>
       <div class="messages-container">
+        <p id ="DevM">
+          Messages from DevMountaineers
+        </p>
         <p ng-repeat="message in messages | reverse">
           {{message.message}} </p>
       </div>

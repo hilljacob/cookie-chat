@@ -1,6 +1,28 @@
+
+
 html {
   height: 100%;
   width: 100%;
+}
+header{
+  width: 100%;
+  height: 30vh;
+  background-image: url(https://tm-pilbox.global.ssl.fastly.net/?url=https%3A%2F%2Fassets.themuse.com%2Fuploaded%2Fattachments%2F21044.jpg%3Fv%3D44fa8fe0869ef1aa1f69ecf53da0792d2c92ef6dd60073b77da463ac98ba27b7&h=367);
+}
+h1 {
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  color: #7f7a76;
+}
+h2 {
+  text-align: center;
+  font-size: 2em;
+  color: #7f7a76;
+}
+input {
+  margin: 15px;
+  border: 2px solid skyblue;
 }
 
 body {
@@ -12,7 +34,8 @@ body {
 .main-container {
   width: 75%;
   margin: 10px auto;
-  background: rgba(255, 255, 255, 0.86);
+  background:;
+  /*background: rgba(255, 255, 255, 0.86);*/
   padding: 5px;
   border-radius: 10px;
 }
@@ -27,7 +50,22 @@ body {
 }
 
 p{
-  text-align: center;
-  margin: 3px 0;
+  text-align: justify;;
+  margin: 0px;
   font-size: 17px;
+  padding: 10px;
+  border: 1px solid grey;
 }
+#DevM{
+  margin-top: 15px;
+  text-align: justify;
+  background: lightgrey;
+  padding: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+
+
+
+//hry
